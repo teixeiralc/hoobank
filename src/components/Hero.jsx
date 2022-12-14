@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
 
       <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative blur_improve_performance`}
       >
         <img
           src={robot}
