@@ -19,7 +19,7 @@ const Navbar = () => {
         {navLinks.map((link) => (
           <li
             key={link.id}
-            className="font-poppins cursor-pointer text-base text-white"
+            className="font-poppins cursor-pointer text-base text-white hover:text-secondary"
           >
             <a href={`#${link.id}`}>{link.title}</a>
           </li>
